@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "name": "Instacart E-Commerce Analytics Platform",
+    "version": "3.0_final",
+    "created": "2025-09-24T10:09:21.440938",
+    "database": "instacart_final.db"
+  },
+  "dataset_stats": {
+    "aisles": {
+      "total_rows": 134,
+      "memory_mb": 0.008575439453125
+    },
+    "departments": {
+      "total_rows": 21,
+      "memory_mb": 0.00128936767578125
+    },
+    "products": {
+      "total_rows": 49688,
+      "memory_mb": 4.1371049880981445
+    },
+    "orders": {
+      "total_rows": 3421083,
+      "memory_mb": 228.3105297088623
+    },
+    "order_products_train": {
+      "total_rows": 1384617,
+      "memory_mb": 42.25528335571289
+    },
+    "order_products_prior": {
+      "total_rows": 32434489,
+      "chunks": 649,
+      "memory_mb": 494.91102600097656
+    }
+  },
+  "pipeline_performance": {
+    "total_duration_seconds": 1088.840634,
+    "total_records_processed": 497798,
+    "avg_processing_rate": 457,
+    "stages_completed": 9
+  },
+  "deliverables": {
+    "analytical_datasets": 4,
+    "ml_models": 2,
+    "database_tables": 10,
+    "tableau_files": 5
+  }
+}
